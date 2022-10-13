@@ -12,13 +12,13 @@ else
     while(count <= number)
     {
         int reminder = count % 2;
-        if(reminder != 0)
+        if(reminder == 0)
         {
+            Console.Write($"{count}. ");
             count++;
         }
         else
         {
-            Console.Write($"{count}. ");
             count++;
         }
     }
